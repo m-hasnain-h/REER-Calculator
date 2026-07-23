@@ -99,8 +99,8 @@ Each of these was a genuine "why is this number wrong" investigation rather than
 
 ```bash
 # Clone the repo
-git clone https://github.com/yourusername/pakistan-reer-calculator.git
-cd pakistan-reer-calculator
+git clone https://github.com/yourusername/REER-calculator.git
+cd REER-calculator
 
 # Install dependencies
 pip install pandas numpy requests yfinance curl_cffi openpyxl
@@ -110,10 +110,10 @@ jupyter notebook REER_Calculator.ipynb
 ```
 
 **Inputs required:**
-- `Trading_Partners.xlsx` — list of trading partners, ISO3 codes, currency codes, and trade weights
+- `Trading_Partners.xlsx` — list of trading partners, ISO3 codes, currency codes, and trade weights. 
 
 **Outputs:**
-- `REER_Calculated_Results.csv` — full breakdown per country
+- `REER_Calculated_Results.csv` — full breakdown per country. 
 - Console output of the final REER value
 
 ---
@@ -128,4 +128,4 @@ jupyter notebook REER_Calculator.ipynb
 
 ## Why This Project Matters
 
-This wasn't a toy exercise — it was built to answer a real question a manager needed answered, using publicly available data, and it was validated against the actual number a country's central bank publishes. It demonstrates the full lifecycle of a data project: sourcing messy real-world data, catching and fixing conceptual (not just syntax) errors, and validating the output against ground truth before trusting it for a business decision.
+This project shows that by using publicly available data, one can create economic models that can be validated against the data published by a country's own central bank. It goes through the full cycle of a data project: sourcing clutered real-world data, catching and fixing errors, and validating the output against trusted sources before using it for a business decision.
